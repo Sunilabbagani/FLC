@@ -12,7 +12,7 @@ public class Feedback {
 
     private final String memberId;
     private final String sessionId;
-    private final int    rating;     // 1 – 5
+    private final int    rating;     
     private final String comment;
 
     public Feedback(String memberId, String sessionId, int rating, String comment) {
